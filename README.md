@@ -1,15 +1,15 @@
 # Comparison of some neural network architectures on small data
 
 ### Data 
-folder /data
+Folder /data
 
 I collect several famous russian classic novels (War and peace, Anna Karenina, 
-Crime and P\punishment etc) in txt and stacked them together. 
+Crime and punishment etc) in txt and stacked them together. 
 
 The corpora is approximetely 18MB.
 
 ### NN architectures
-folder /models
+Folder /models
 
 I tried the most popular RNN architectures: GRU and LSTM with different capacity. 
 
@@ -28,4 +28,4 @@ I made simple laguage models, so the quality metric is perplexity.
 | GRU Large + dropout | 4275.2     | 8min 30s   | 
 
 
-Dropout made significant improve to LM. However, LSTM + dropout performs almost the same as GRU + dropout. Thus, use dropout to achieve better performance, epspecially on a small corpora.
+Dropout have improved LM significantly. However, LSTM + dropout performs almost the same as GRU + dropout. Thus, use dropout to achieve better performance, epspecially on a small corpora.
